@@ -87,3 +87,7 @@ body {
   .pres {
     text-align: center;
   }
+
+  li {
+    border: 10px solid #333;
+  }
