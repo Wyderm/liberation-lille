@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  table, td, th {
+    border: 1px solid #333;
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .im1, .im2 {
+    height: 500px;
+    padding: 100px;
+  }
+  
+  .im1 {
+    float: left;
+  }
+  
+  .im2 {
+    float: right;
+  }
+  
+  .pres {
+    text-align: center;
+  }
+  
+  .carteM {
+    height: 650px;
+    display: block;
+    margin: auto;
+    border: 1px solid #333;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .carteM {
+      height: 325px;
+    }
+  }
+  
+  .coche {
+    background-color: #333;
+  }
+  
+  section {
+    border: 1px solid #333;
+  }
+  
+  footer {
+    padding: 20px;
+  }
+  
+  .pres {
+    text-align: center;
+  }
